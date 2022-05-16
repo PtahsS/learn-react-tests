@@ -2,7 +2,6 @@ import React from 'react'
 
 const List = props => {
     const { items = [] } = props;
-    console.log("items", items);
 
     if (!items.length) return null;
     return (
